@@ -50,7 +50,18 @@ import { MatInputModule } from '@angular/material/input';
 
 ### Go to your index.html and add this inside <head>:
 
-<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+// <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
+# angular-fontawesome
+
+##Using NPM
+
+$ npm install @fortawesome/fontawesome-svg-core
+$ npm install @fortawesome/free-solid-svg-icons
+# See Compatibility table below to choose a correct version
+$ npm install @fortawesome/angular-fontawesome@<version>
+  
+https://github.com/FortAwesome/angular-fontawesome
 
 # Start by installing the Angular Layout library from npm
 
