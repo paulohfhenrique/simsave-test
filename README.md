@@ -2,11 +2,11 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.2.0.
 
-## Development server
+# Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
-## Communicating with backend services using HTTP
+# Communicating with backend services using HTTP
 
 https://angular.io/guide/http#communicating-with-backend-services-using-http
 
@@ -25,7 +25,7 @@ import { HttpClientModule } from '@angular/common/http';
 })
 export class AppModule {}
 
-## Font used in the application
+# Font used in the application
 
 <style>
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
@@ -35,12 +35,12 @@ export class AppModule {}
 
 font-family: 'Roboto', sans-serif;
 
-## Install Angular Material
+# Install Angular Material
 
 npm install --save @angular/material
 npm install --save @angular/cdk
 
-# Create a MaterialModule class:
+### Create a MaterialModule class:
 
 import { MatToolbarModule } from '@angular/material/toolbar';
 import { MatButtonModule } from '@angular/material/button';
@@ -48,17 +48,17 @@ import { MatCardModule } from '@angular/material/card';
 import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatInputModule } from '@angular/material/input';
 
-# Go to your index.html and add this inside <head>:
+### Go to your index.html and add this inside <head>:
 
 <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 
-## Start by installing the Angular Layout library from npm
+# Start by installing the Angular Layout library from npm
 
 https://github.com/angular/flex-layout
 
 npm i -s @angular/flex-layout @angular/cdk
 
-# app.module.ts
+### app.module.ts
 
 import { FlexLayoutModule } from '@angular/flex-layout';
 ...
