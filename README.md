@@ -48,24 +48,24 @@ import { MatCardModule } from '@angular/material/card';
 import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatInputModule } from '@angular/material/input';
 
-### Go to your index.html and add this inside <head>:
+### Go to your index.html and add this inside '<head>':
 
-// <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+// '<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">'
 
 # angular-fontawesome
 
-##Using NPM
+Using NPM
 
 $ npm install @fortawesome/fontawesome-svg-core
 $ npm install @fortawesome/free-solid-svg-icons
 # See Compatibility table below to choose a correct version
 $ npm install @fortawesome/angular-fontawesome@<version>
   
-https://github.com/FortAwesome/angular-fontawesome
+'https://github.com/FortAwesome/angular-fontawesome'
 
 # Start by installing the Angular Layout library from npm
 
-https://github.com/angular/flex-layout
+'https://github.com/angular/flex-layout'
 
 npm i -s @angular/flex-layout @angular/cdk
 
