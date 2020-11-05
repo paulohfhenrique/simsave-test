@@ -40,7 +40,7 @@ font-family: 'Roboto', sans-serif;
 npm install --save @angular/material
 npm install --save @angular/cdk
 
-### Create a MaterialModule class:
+## Create a MaterialModule class:
 
 import { MatToolbarModule } from '@angular/material/toolbar';
 import { MatButtonModule } from '@angular/material/button';
@@ -48,9 +48,9 @@ import { MatCardModule } from '@angular/material/card';
 import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatInputModule } from '@angular/material/input';
 
-### Go to your index.html and add this inside '<head>':
+## Go to your index.html and add this inside '<head>':
 
-// '<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">'
+'<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">'
 
 # angular-fontawesome
 
@@ -58,7 +58,7 @@ Using NPM
 
 $ npm install @fortawesome/fontawesome-svg-core
 $ npm install @fortawesome/free-solid-svg-icons
-# See Compatibility table below to choose a correct version
+See Compatibility table below to choose a correct version
 $ npm install @fortawesome/angular-fontawesome@<version>
   
 'https://github.com/FortAwesome/angular-fontawesome'
@@ -69,7 +69,7 @@ $ npm install @fortawesome/angular-fontawesome@<version>
 
 npm i -s @angular/flex-layout @angular/cdk
 
-### app.module.ts
+## app.module.ts
 
 import { FlexLayoutModule } from '@angular/flex-layout';
 ...
