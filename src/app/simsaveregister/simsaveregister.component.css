@@ -1,0 +1,28 @@
+.svRegister {
+    background: #397AE1;
+    background: linear-gradient( 180deg, rgba(173, 219, 239, 1) 1%, rgba(246, 246, 249, 1) 100%);
+    background: linear-gradient( 180deg, rgba(223, 234, 251, 1) 80%, rgba(246, 246, 249, 1) 80%);
+    margin-top: 5%;
+}
+
+.svregister {
+    background: #397AE1;
+    background: linear-gradient( 89deg, rgba(57, 122, 225, 1) 0%, rgba(173, 219, 239, 1) 100%);
+    color: white;
+    margin-top: 10%;
+    border-radius: 15px;
+    padding: 40px 40px;
+}
+
+.svregisterButton {
+    background-color: white;
+    color: #1767E5;
+}
+
+.svtitleRegister {
+    font-weight: bold;
+}
+
+.svtextRegister {
+    text-align: center;
+}

@@ -1,0 +1,29 @@
+.svButtonCard {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.svBorderTop {
+    border-top: 5px solid;
+    border-radius: 0px 0px 5px 5px;
+    width: 40px;
+    margin-top: -16px;
+}
+
+.svCard {
+    height: 320px;
+}
+
+.svCardText {
+    text-align: center;
+}
+
+.svCardTitle {
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+p {
+    color: #5d5d5d;
+}

@@ -1,0 +1,16 @@
+<mat-card class="svCard" fxLayout="column" fxLayoutAlign="space-between center">
+    <div [ngStyle]="{ color: this.product.color }" class="svBorderTop"></div>
+    <mat-card-header fxLayout="row" fxLayoutAlign="center center">
+        <mat-card-title [ngStyle]="{ color: this.product.color }" class="svCardTitle" fxLayout="space-around">{{ product.title }}</mat-card-title>
+    </mat-card-header>
+    <mat-card-content class="svCardText">
+        <p>
+            {{ product.text }}
+        </p>
+    </mat-card-content>
+    <mat-card-actions fxLayout="row" fxLayoutAlign="center end">
+        <button class="svButtonCard" mat-stroked-button [ngStyle]="{ color: this.product.color }">
+      Saiba mais
+    </button>
+    </mat-card-actions>
+</mat-card>

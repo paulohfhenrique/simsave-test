@@ -1,0 +1,13 @@
+<div>
+    <div>
+        <img fxFill src="/assets/images/BannerSimSave.png" />
+    </div>
+
+    <div class="svCards" fxLayout="row wrap" fxLayoutGap="16px grid">
+        <div fxFlex="25%" fxFlex.xs="100%" fxFlex.sm="50%" *ngFor="let product of products">
+            <simsavesinglecards [product]="product">
+
+            </simsavesinglecards>
+        </div>
+    </div>
+</div>

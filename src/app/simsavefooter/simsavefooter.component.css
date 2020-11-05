@@ -1,0 +1,47 @@
+footer {
+    height: 190px;
+    position: relative;
+    bottom: 0;
+    color: #b3bdcc;
+    margin-top: 10px;
+}
+
+.svmailicon {
+    margin-right: 6px;
+}
+
+.svspace {
+    height: 40px;
+}
+
+.svContactMe {
+    width: 294px;
+    margin-top: -16px;
+    margin-left: 40px;
+    margin-bottom: 40px;
+}
+
+.svfooter {
+    height: 100px;
+}
+
+a {
+    text-decoration: none;
+    color: #b3bdcc;
+}
+
+h2 {
+    text-align: left;
+    margin-top: 0px;
+    width: 280px;
+}
+
+p {
+    text-align: center;
+    width: 310px;
+}
+
+fa-icon {
+    margin-left: 3px;
+    margin-right: 3px;
+}
