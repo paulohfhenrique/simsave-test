@@ -50,7 +50,7 @@ import { MatInputModule } from '@angular/material/input';
 
 # Go to your index.html and add this inside < head >
   
-'<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">'
+'< link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" >'
 
 # angular-fontawesome
 
